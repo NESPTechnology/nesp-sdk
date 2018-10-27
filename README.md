@@ -20,6 +20,8 @@ repositories {
 
 之后在dependencies下增加 	
 
+```
 dependencies{	   
     compile 'com.nesp.sdk: cloud :1.0'	   
 }	   
+```
