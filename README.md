@@ -6,11 +6,11 @@
 打开需要调用该远程maven的module的build.gradle
 在最后增加： 
 
-```
+```java
 repositories {	   
     jcenter()	   
     maven {	   
-        url "https://raw.github.com/NESPTechnology/nesp-sdk/master""     
+        url "https://raw.github.com/NESPTechnology/nesp-sdk/master"     
     }	   
 }	   
 ```
